@@ -14,7 +14,8 @@ public class PrototypeMain {
         
         //We create the initial price list
         //This has the products with the list price
-        PriceListImpl standarPriceList =  new PriceListImpl("Standar Price List");
+        PriceListImpl standarPriceList = 
+                new PriceListImpl("Standar Price List");
         for(int c = 1; c<=5; c++){
             ProductItem item = new ProductItem("Product " + c, c*2);
             standarPriceList.addProductItem(item);
@@ -42,19 +43,9 @@ public class PrototypeMain {
             item.setPrice(item.getPrice()*0.90);
         }
         
-        
-        PriceListImpl vipPriceList2 = (PriceListImpl)
-                PrototypeFactory.getPrototype("Standar Price List");
-        vipPriceList.setListName("VIP Price List2");
-        for(ProductItem item : vipPriceList.getProducts()){
-            item.setPrice(item.getPrice()*0.70);
-        }
-        
-        
         //Imprimimos las listas de precio.
         System.out.println(standarPriceList);
         System.out.println(wholesalePriceList);
         System.out.println(vipPriceList);
-        System.out.println(vipPriceList2);
     }
 }

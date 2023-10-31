@@ -1,9 +1,7 @@
 package com.javatutoriales.patrones.builder.estrategiaC.model;
 
-import lombok.Data;
-
-@Data
 public class Telefono {
+	
     private final String numero;
     private final TipoTelefono tipoTelefono;
 
@@ -11,4 +9,14 @@ public class Telefono {
         this.numero = numero;
         this.tipoTelefono = tipoTelefono;
     }
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public TipoTelefono getTipoTelefono() {
+		return tipoTelefono;
+	}
+    
+    
 }

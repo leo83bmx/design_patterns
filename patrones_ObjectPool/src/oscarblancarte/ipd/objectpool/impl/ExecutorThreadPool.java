@@ -9,7 +9,8 @@ import oscarblancarte.ipd.objectpool.impl.factory.IPoolableObjectFactory;
  */
 public class ExecutorThreadPool extends AbstractObjectPool<ExecutorTask>{
 
-    public ExecutorThreadPool(int minInstances, int maxInstances, int waitTime, IPoolableObjectFactory<ExecutorTask> poolableObjectFactory) {
+    public ExecutorThreadPool(int minInstances, int maxInstances, int waitTime, 
+            IPoolableObjectFactory<ExecutorTask> poolableObjectFactory) {
         super(minInstances, maxInstances, waitTime, poolableObjectFactory);
     }
 }

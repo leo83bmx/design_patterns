@@ -1,5 +1,7 @@
 package oscarblancarte.ipd.objectpool.impl.poolable;
 
+import oscarblancarte.ipd.objectpool.impl.poolable.IPooledObject;
+
 /**
  * @author Oscar Javier Blancarte Iturralde
  * @see http://www.oscarblancarteblog.com

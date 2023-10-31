@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 class UsuarioBuilderTest {
     @Test
     void usuarioCorrecto() {
+    	
         Usuario.UsuarioBuilder usuarioBuilder = Usuario.builder("Programador Java", "programadorjava")
                 .password("123456")
                 .nickname("Programador");

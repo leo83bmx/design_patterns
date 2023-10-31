@@ -1,9 +1,11 @@
 package oscarblancarte.ipd.objectpool;
 
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.ThreadPoolExecutor;
+import oscarblancarte.ipd.objectpool.impl.poolable.ExecutorTask;
+import oscarblancarte.ipd.objectpool.impl.factory.ExecutorTaskFactory;
 import oscarblancarte.ipd.objectpool.impl.ExecutorThreadPool;
 import oscarblancarte.ipd.objectpool.impl.PoolException;
-import oscarblancarte.ipd.objectpool.impl.factory.ExecutorTaskFactory;
-import oscarblancarte.ipd.objectpool.impl.poolable.ExecutorTask;
 
 /**
  * @author Oscar Javier Blancarte Iturralde
