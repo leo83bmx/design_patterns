@@ -1,7 +1,9 @@
 package oscarblancarte.ipd.interprete.sql.nonterminal;
 
-import oscarblancarte.ipd.interprete.sql.*;;
-import oscarblancarte.ipd.interprete.sql.terminal.*;
+import oscarblancarte.ipd.interprete.sql.AbstractSQLExpression;
+import oscarblancarte.ipd.interprete.sql.Context;
+import oscarblancarte.ipd.interprete.sql.InterpreteException;
+import oscarblancarte.ipd.interprete.sql.terminal.LiteralExpression;
 
 /**
  * @author Oscar Javier Blancarte Iturralde

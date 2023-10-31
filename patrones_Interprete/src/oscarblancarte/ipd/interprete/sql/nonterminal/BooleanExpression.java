@@ -1,9 +1,16 @@
 package oscarblancarte.ipd.interprete.sql.nonterminal;
 
 import java.util.Date;
-import org.apache.poi.ss.usermodel.*;
-import oscarblancarte.ipd.interprete.sql.*;
-import oscarblancarte.ipd.interprete.sql.terminal.*;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+
+import oscarblancarte.ipd.interprete.sql.Context;
+import oscarblancarte.ipd.interprete.sql.InterpreteException;
+import oscarblancarte.ipd.interprete.sql.terminal.DateExpression;
+import oscarblancarte.ipd.interprete.sql.terminal.LiteralExpression;
+import oscarblancarte.ipd.interprete.sql.terminal.NumericExpression;
+import oscarblancarte.ipd.interprete.sql.terminal.TextExpression;
 
 /**
  * @author Oscar Javier Blancarte Iturralde

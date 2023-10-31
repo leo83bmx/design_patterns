@@ -1,10 +1,12 @@
 package oscarblancarte.ipd.decorator.impl.decorators;
 
 import java.io.ByteArrayOutputStream;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.Marshaller;
 import javax.xml.namespace.QName;
+
 import oscarblancarte.ipd.decorator.impl.message.IMessage;
 import oscarblancarte.ipd.decorator.impl.message.TextMessage;
 
